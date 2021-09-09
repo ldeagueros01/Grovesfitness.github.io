@@ -839,8 +839,8 @@ schedule
 */
 
 #schedule {
-  padding: 0px 0px 140px 0px;
-  background-image: url(../images/schedule-bg.jpg);
+  padding: 0px 0px 100px 0px;
+  background-image: url(../images/leaf.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -907,8 +907,8 @@ schedule
   transition: all 0.3s ease-in-out;
 }
 #schedule .filters ul li:after {
-  content: "/";
-  margin-left: 10px;
+  content: "";
+  margin-left: -10px;
   color: #fff;
 }
 #schedule .filters ul li:last-child {
